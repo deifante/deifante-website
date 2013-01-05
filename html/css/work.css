@@ -43,7 +43,7 @@
 .WorkLink
 {
   margin-top:70px;
-  display:block;
+  /* display:block; */ /* I'm not quite sure yet why this is conflicting with bootstrap.css */
   width:350px;
   height:260px;
   -webkit-border-radius: 7px;

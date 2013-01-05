@@ -1,20 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Nobile);
 body
 {
-  font-family: 'Nobile', arial, serif;
-  background-color:rgb(201,176,134);
-  padding-left:30px;
-  padding-top:30px;
-  color:rgb(45,43,33);
+  padding-top:60px;
 }
-
-a
-{
-  color:rgb(20,25,25);
-}
-a:visited
-{
-  color:rgb(242,230,197);
-}
-
-
