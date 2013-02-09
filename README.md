@@ -1,4 +1,4 @@
 deifante-website
 ================
 
-The source for my own personal "site".
+The source for my own personal site.
