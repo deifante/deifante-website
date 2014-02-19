@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Inline install test</title>
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/liablacohegmmmmpofkloijhfdbcojna">
+  </head>
+  <body>
+    <p>This is a test of inline install.</p>
+    <button onclick="chrome.webstore.install();console.log('starting install');">Add to Chrome</button>
+  </body>
+  <script>
+    if(chrome.app.isInstalled)
+    {
+        //document.getElementById('install-button').style.display='none';
+      console.log('app already installed');
+    }
+    else
+    {
+      console.log('app not installed.');
+    }
+  </script>
+</html>
